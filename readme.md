@@ -14,4 +14,3 @@
   1. Deployment is Broken: 
      * https://github.com/lvbreda/Meteor_angularjs/issues/4
      * https://github.com/lvbreda/Meteor_angularjs/issues/5
-  2. Meteor-Angular autosave doesn't seem to be working (not used in this demo)
