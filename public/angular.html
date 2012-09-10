@@ -3,7 +3,10 @@
         <div class="player" ng-repeat="play in players | orderBy: name | orderBy: score" ng-class="sel($index)" ng-click="toggleSelect($index)">
         	<span class="name">{{play.name}}</span>
     		  <span class="score">{{play.score}}</span>
-    		  <span class="love" ng-click="addLove(play)"><img src="img/fav.png" alt="Like"/></span>
+    		  <span class="love" ng-click="addLove(play)">
+            <img src="img/fav.png" alt="Like" />
+          </span>
         </div>
+        <div id="reset" ng-click="reset(players)" class="btn btn-danger">Reset Scores</button>
      </div>
 </div>
