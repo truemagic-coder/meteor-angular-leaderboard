@@ -7,7 +7,7 @@
   5. click on a heart to add 5 points to a name
 
 ## What it does:
-  The real-time leaderboard that auto-sorts by desc score and asc name.
+  Demos a real-time leaderboard that auto-sorts by desc score and asc name.
 
 ## Notes:
   1. Deployment is Broken: https://github.com/lvbreda/Meteor_angularjs/issues/2
