@@ -11,5 +11,7 @@
   Demos a real-time leaderboard that auto-sorts by desc score and asc name.
 
 ## Notes:
-  1. Deployment is Broken: https://github.com/lvbreda/Meteor_angularjs/issues/5
+  1. Deployment is Broken: 
+     * https://github.com/lvbreda/Meteor_angularjs/issues/4
+     * https://github.com/lvbreda/Meteor_angularjs/issues/5
   2. Meteor-Angular autosave doesn't seem to be working (not used in this demo)
