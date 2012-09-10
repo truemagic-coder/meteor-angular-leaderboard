@@ -8,6 +8,7 @@ TournamentCtrl = ($scope) ->
   $scope.reset = (players) ->
     players.forEach (play) ->
       play.score = 0
+      play.$save()
   $scope.addLove = (play) ->
     play.score = play.score + 5
     play.$save()
