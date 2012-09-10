@@ -1,5 +1,11 @@
-app = angular.module 'meteorapp', []
-TournamentCtrl = ($scope) -> 
+# create app with home route 
+angular.module('meteorapp', ['controllers']).config ['$routeProvider', ($routeProvider) ->
+    $routeProvider.when '/'
+      controller: 'home'
+  ]
+
+# create home route 
+angular.module('controllers', []).controller 'home', ($scope) ->
   $scope.Players = new Meteor.AngularCollection "players", $scope, false
   $scope.players = $scope.Players.find {}
   $scope.selected = 0
