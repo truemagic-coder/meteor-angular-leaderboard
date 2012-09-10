@@ -1,4 +1,4 @@
-# Meteor Leaderboard Demo using AngularJS with Coffeescript
+# Meteor Leaderboard Demo using AngularJS
 ## How to use:
   1. npm install meteorite (if not already installed)
   2. git clone https://github.com/bevanhunt/meteor-angular-leaderboard.git
