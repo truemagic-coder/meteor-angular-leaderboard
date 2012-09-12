@@ -12,5 +12,5 @@
 
 ## Notes:
   * Deployment is Broken: 
-     * https://github.com/lvbreda/Meteor_angularjs/issues/4
+     * https://github.com/lvbreda/Meteor_angularjs/issues/2
      * https://github.com/lvbreda/Meteor_angularjs/issues/5
