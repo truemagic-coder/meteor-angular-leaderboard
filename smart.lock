@@ -1,18 +1,21 @@
 {
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
-    "branch": "auth",
-    "commit": "02cf89a54b43102fbaf68657b7671e7f2791ea78"
+    "branch": "master",
+    "commit": "68dafc94c5f1eb6cf2350ee74e9f65130f665bc5"
   },
   "dependencies": {
     "basePackages": {
-      "angularjs": {}
+      "angularjs": {
+        "git": "https://github.com/lvbreda/Meteor_angularjs.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "angularjs": {
         "git": "https://github.com/lvbreda/Meteor_angularjs.git",
-        "tag": "v0.5.0",
-        "commit": "d0364927b82d94406b05a1902dc66a1508b1505c"
+        "branch": "master",
+        "commit": "dd2a811b72b9850365f6fcdb0392e43e71ebbd45"
       }
     }
   }

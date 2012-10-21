@@ -1,8 +1,10 @@
 {  
   "meteor": {
-    "branch":"auth"
+    "branch":"master"
   },
   "packages": {
-    "angularjs": {}
+    "angularjs": {
+      "git" : "https://github.com/lvbreda/Meteor_angularjs.git"
+    }
   }
 }
