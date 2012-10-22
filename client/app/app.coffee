@@ -12,7 +12,7 @@ angular.module('controllers', []).controller 'home', ($scope) ->
   $scope.score = '-score'
   $scope.name = '+name'
   $scope.reset = (players) ->
-    players.forEach (play) ->
+    for play in players 
       play.score = 0
       play.$save()
   $scope.addLove = (play) ->
