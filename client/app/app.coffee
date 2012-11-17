@@ -1,25 +1,25 @@
 # create app with home route 
-angular.module('meteorapp', ['controllers']).config ['$routeProvider', ($routeProvider) ->
-  $routeProvider.when '/'
+angular.module('meteorapp', ['controllers']).config ['$routeProvider', (e) ->
+  e.when '/'
     controller: 'home'
 ]
 
 # create home route 
-angular.module('controllers', []).controller 'home', ['$scope', ($scope) ->
-  $scope.Players = new Meteor.AngularCollection "players", $scope, false
-  $scope.players = $scope.Players.find {}
-  $scope.selected = 0
-  $scope.score = '-score'
-  $scope.name = '+name'
-  $scope.reset = (players) ->
+angular.module('controllers', []).controller 'home', ['$scope', (e) ->
+  e.Players = new Meteor.AngularCollection "players", e, false
+  e.players = e.Players.find {}
+  e.selected = 0
+  e.score = '-score'
+  e.name = '+name'
+  e.reset = (players) ->
     for play in players 
       play.score = 0
       play.$save()
-  $scope.addLove = (play) ->
+  e.addLove = (play) ->
     play.score = play.score + 5
     play.$save()
-  $scope.toggleSelect = (i) ->
-    $scope.selected = i
-  $scope.sel = (i) ->
-    if $scope.selected is i then 'selected' else ''
+  e.toggleSelect = (i) ->
+    e.selected = i
+  e.sel = (i) ->
+    if e.selected is i then 'selected' else ''
 ]
