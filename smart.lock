@@ -15,7 +15,7 @@
       "angularjs": {
         "git": "https://github.com/lvbreda/Meteor_angularjs.git",
         "branch": "master",
-        "commit": "dd2a811b72b9850365f6fcdb0392e43e71ebbd45"
+        "commit": "fb0d3afdf85ccfe7e48887d6ea187eea8ca36836"
       }
     }
   }

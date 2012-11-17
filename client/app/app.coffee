@@ -1,7 +1,7 @@
 # create app with home route 
 angular.module('meteorapp', ['controllers']).config ['$routeProvider', ($routeProvider) ->
-    $routeProvider.when '/'
-      controller: 'home'
+  $routeProvider.when '/'
+    controller: 'home'
 ]
 
 # create home route 

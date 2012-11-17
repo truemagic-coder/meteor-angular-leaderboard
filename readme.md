@@ -12,4 +12,4 @@
 
 ## Notes:
   * Deployment is Broken: 
-     * https://github.com/lvbreda/Meteor_angularjs/issues/7
+     * https://github.com/lvbreda/Meteor_angularjs/issues/5
