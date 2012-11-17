@@ -2,10 +2,10 @@
 angular.module('meteorapp', ['controllers']).config ['$routeProvider', ($routeProvider) ->
     $routeProvider.when '/'
       controller: 'home'
-  ]
+]
 
 # create home route 
-angular.module('controllers', []).controller 'home', ($scope) ->
+angular.module('controllers', []).controller 'home', ['$scope', ($scope) ->
   $scope.Players = new Meteor.AngularCollection "players", $scope, false
   $scope.players = $scope.Players.find {}
   $scope.selected = 0
@@ -22,3 +22,4 @@ angular.module('controllers', []).controller 'home', ($scope) ->
     $scope.selected = i
   $scope.sel = (i) ->
     if $scope.selected is i then 'selected' else ''
+]
