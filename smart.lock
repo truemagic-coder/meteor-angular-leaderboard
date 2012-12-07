@@ -2,7 +2,7 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "68dafc94c5f1eb6cf2350ee74e9f65130f665bc5"
+    "commit": "067113a37dd4e7824db1a16d5f7a90c3739eed9c"
   },
   "dependencies": {
     "basePackages": {
@@ -15,7 +15,7 @@
       "angularjs": {
         "git": "https://github.com/lvbreda/Meteor_angularjs.git",
         "branch": "master",
-        "commit": "fb0d3afdf85ccfe7e48887d6ea187eea8ca36836"
+        "commit": "7ec6f1c1c1c8b74f2e83bc042a55891f8840c453"
       }
     }
   }

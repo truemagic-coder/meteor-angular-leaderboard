@@ -10,6 +10,5 @@
 ## What it does:
   Demos a real-time leaderboard that auto-sorts by desc score and asc name.
 
-## Notes:
-  * Deployment is Broken: 
-     * https://github.com/lvbreda/Meteor_angularjs/issues/5
+## Demo:
+  http://angularluvs.meteor.com
