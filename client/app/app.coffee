@@ -1,4 +1,4 @@
-# create the home controller - use this array structure in order to deploy 
+# create the home controller - use this array structure in order to deploy
 home = [
   "$scope"
   "$rootScope"
