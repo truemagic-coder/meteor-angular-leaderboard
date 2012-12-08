@@ -3,8 +3,6 @@
     "branch":"master"
   },
   "packages": {
-    "angularjs": {
-      "git" : "https://github.com/lvbreda/Meteor_angularjs.git"
-    }
+    "angularjs": {}
   }
 }

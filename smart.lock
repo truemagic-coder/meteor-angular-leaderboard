@@ -6,15 +6,12 @@
   },
   "dependencies": {
     "basePackages": {
-      "angularjs": {
-        "git": "https://github.com/lvbreda/Meteor_angularjs.git",
-        "branch": "master"
-      }
+      "angularjs": {}
     },
     "packages": {
       "angularjs": {
         "git": "https://github.com/lvbreda/Meteor_angularjs.git",
-        "branch": "master",
+        "tag": "v1.2.0",
         "commit": "7ec6f1c1c1c8b74f2e83bc042a55891f8840c453"
       }
     }
