@@ -12,3 +12,6 @@
 
 ## Demo:
   http://angularluvs.meteor.com
+
+## License
+MIT/X11
