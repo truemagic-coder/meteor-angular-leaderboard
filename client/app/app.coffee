@@ -11,10 +11,6 @@ home = [
     $scope.selected = 0
     $scope.score = '-score'
     $scope.name = '+name'
-    $scope.reset = (players) ->
-      for play in players 
-        play.score = 0
-        play.$save()
     $scope.addLove = (play) ->
       play.score = play.score + 5
       play.$save()

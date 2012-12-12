@@ -1,4 +1,5 @@
-Players = new Meteor.Collection "players"
+Players = new Meteor.Collection('players')
+Meteor.publish 'players', -> Players.find()
 
 Meteor.startup ->
   if Players.find().count() is 0 
