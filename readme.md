@@ -1,17 +1,3 @@
-# Meteor Leaderboard Demo using AngularJS
-## How to use:
-  1. npm install -g meteorite (if not already installed)
-  2. git clone https://github.com/bevanhunt/meteor-angular-leaderboard.git
-  3. cd meteor-angular-leaderboard
-  4. mrt
-  5. open browser to http://localhost:3000
-  6. click on a heart to add 5 points to a name
+# Note
 
-## What it does:
-  Demos a real-time leaderboard that auto-sorts by desc score and asc name.
-
-## Demo:
-  http://angularluvs.meteor.com
-
-## License
-MIT/X11
+This was the first public demo of a Meteor angular app - it is really old and outdated - I am keeping this for record keeping purposes. Cheers
